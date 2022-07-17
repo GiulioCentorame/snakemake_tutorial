@@ -1,4 +1,4 @@
-# Hands-on introdution to Snakemake
+# Hands-on introduction to Snakemake
 
 ## Requirements
 
