@@ -1,5 +1,7 @@
 # Hands-on introduction to Snakemake
 
+[![Snakemake](https://img.shields.io/badge/snakemake-7.9.0-brightgreen.svg?style=flat)](https://snakemake.readthedocs.io) ![R](https://img.shields.io/badge/R-%3E%3D3.6-blue)
+
 ## Requirements
 
 - Unix/Linux system with access to the internet. It is possible to run this practical on Windows using [WSL](https://docs.microsoft.com/en-us/windows/wsl/install), but it does need some extra work to set it up and sort the dependencies out.
