@@ -35,4 +35,12 @@ git clone https://github.com/GiulioCentorame/snakemake_tutorial.git
 
 If you do not wish to keep using snakemake and/or something went wrong during the installation, you can clean your system up by following the [uninstall instruction for Mamba](https://github.com/conda-forge/miniforge#uninstallation) and remove the `snakemake_tutorial` folder.
 
+## Need help?
 
+Snakemake has become a complex piece of software over the years and it might not be the most beginner-friendly, depending on your background. It definitely was not for me.
+In case of issues related to the setup or the practical, feel free to open an issue on this repository.
+
+You can also find some help on:
+- The excellent [Snakemake documentation](https://snakemake.readthedocs.io/en/stable/). This should always be your starting point and it covers *many* topics that are not present in this tutorial.
+- [StackOverflow](https://stackoverflow.com/questions/tagged/snakemake) has ~1.3k questions under the `[snakemake]` tag (chances are someone had your same issue before).
+-  The Snakemake's [Google Group](https://groups.google.com/g/snakemake) and [Discord](https://discord.gg/NUdMtmr) are excellent resources to break down more complex issues and they're highly active.
