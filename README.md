@@ -12,7 +12,7 @@
 
 Make sure to install Snakemake using the [official installation instructions](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html). 
 
-The full installation via Mamba/Conda is preferred and it takes up ~1.5 GB:
+The full installation via Mamba/Conda is preferred and it takes up ~1.5 GB. Make sure to install it somewhere with enough space, when it prompts for the installation folder (e.g. for `delta2` users, your `scratch` folder would be ideal):
 
 ```
 # Install Mambaforge
