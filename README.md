@@ -8,7 +8,9 @@
 
 ## Setup
 
-Make sure to install Snakemake using the [official installation instructions](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html). The full installation via Mamba/Conda is preferred, e.g.
+Make sure to install Snakemake using the [official installation instructions](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html). 
+
+The full installation via Mamba/Conda is preferred and it takes up ~1.5 GB:
 
 ```
 # Install Mambaforge
@@ -24,9 +26,13 @@ conda activate snakemake
 snakemake --help
 ```
 
-The same sources contain step-by-step instructions on how to uninstall it.
-
 Then, clone this repository:
 ```
 git clone https://github.com/GiulioCentorame/snakemake_tutorial.git
 ```
+
+## Cleanup
+
+If you do not wish to keep using snakemake and/or something went wrong during the installation, you can clean your system up by following the [uninstall instruction for Mamba](https://github.com/conda-forge/miniforge#uninstallation) and remove the `snakemake_tutorial` folder.
+
+
