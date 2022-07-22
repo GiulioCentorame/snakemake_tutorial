@@ -2,13 +2,25 @@
 
 [![Snakemake](https://img.shields.io/badge/snakemake-7.9.0-brightgreen.svg?style=flat)](https://snakemake.readthedocs.io) ![R](https://img.shields.io/badge/R-%3E%3D3.6-blue)
 
-## Requirements
+This tutorial is developed as a practical companion to the mini-workshop **Introduction to Snakemake** held at the Genetics and Genomics Division, Institute of Molecular Bioscience, University of Queensland (7th July 2022). It is intended as a bare-bone introduction to the basic mechanics of scientific workflow management and as a starting point to play around with the basics.
+
+## Run on Gitpod
+
+The easiest way to run this practical is by using Gitpod:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/GiulioCentorame/snakemake_tutorial)
+
+You can then follow the instructions for the tutorial on the [GitHub wiki](https://github.com/GiulioCentorame/snakemake_tutorial/wiki).
+
+## Run locally
+
+### Requirements
 
 - Unix/Linux system with access to the internet. It is possible to run this practical on Windows using [WSL](https://docs.microsoft.com/en-us/windows/wsl/install), but it does need some extra work to set it up and sort the dependencies out.
 - `git` (to clone this repository)
 - `R >= 3.6`
 
-## Setup
+### Setup
 
 Make sure to install Snakemake using the [official installation instructions](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html). 
 
@@ -33,9 +45,13 @@ Then, clone this repository:
 git clone https://github.com/GiulioCentorame/snakemake_tutorial.git
 ```
 
-## Cleanup
+### Run 
 
-If you do not wish to keep using snakemake and/or something went wrong during the installation, you can clean your system up by following the [uninstall instruction for Mamba](https://github.com/conda-forge/miniforge#uninstallation) and remove the `snakemake_tutorial` folder.
+The step-by-step instructions for the tutorial are on the [GitHub wiki](https://github.com/GiulioCentorame/snakemake_tutorial/wiki).
+
+### Cleanup
+
+If you do not wish to keep using Snakemake and/or something went wrong during the installation, you can clean your system up by following the [uninstall instruction for Mamba](https://github.com/conda-forge/miniforge#uninstallation) and remove the `snakemake_tutorial` folder.
 
 ## Need help?
 
