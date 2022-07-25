@@ -8,3 +8,5 @@ dependencies:
   - matplotlib
   - graphviz
   - pygments
+  - gawk
+  - sed

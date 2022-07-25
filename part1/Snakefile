@@ -1,0 +1,14 @@
+rule create_header:
+        output:
+            '/output/first_line.txt'
+        shell:
+            "echo 'This is a cheat sheet for ls:' > {output}"
+
+rule join_files:
+        input:
+            '/output/first_line.txt',
+            'cheat_sheet.txt'
+        output:
+            '/output/ls.txt'
+        shell:
+            "cat {input} > {output}"
