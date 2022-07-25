@@ -4,5 +4,9 @@ channels:
 dependencies:
   - snakemake =7.9
   - jinja2
+  - graphvi
   - matplotlib
   - graphviz
+  - pygments
+  - gawk
+  - sed
